@@ -1,0 +1,33 @@
+html{
+    background-color: rgb(250, 248, 249);
+    text-align: center;
+}div{
+color:rgb(10, 4, 8)
+}
+h1{
+    text-align: center;
+    background-color:grey;
+}
+h2{
+    background-color: grey;
+
+}
+p{
+    text-transform: capitalize;
+    color:rgb(8, 0, 10);
+    background-color: rgb(250, 248, 250);
+}
+li{
+    text-align: center;
+    color:black
+}
+h3{
+    text-align: left;
+    color:blue;
+    text-transform: capitalize;   
+}
+.outer-box{
+    color:purple;
+}
+#outerbox{
+}

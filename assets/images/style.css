@@ -1,0 +1,22 @@
+*{
+    background-color:#059CB3
+}
+h1{
+    text-align: center;
+}
+h2, h3, h4, h5{
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+    text-align: center;
+    color:rgb(38, 21, 114)
+}
+p{
+    text-align: center;
+}
+h3 > li.p{
+    text-align: center;
+}
+}

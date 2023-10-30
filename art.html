@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <style>
+        html{
+            background-color: rgb(32, 31, 31);
+        }
+        h1{
+            font-size:5rem;
+            text-align: center;
+            color:rgb(131, 27, 172)
+            
+        }
+        .watermark img{ width:100%;}
+        .watermark{position:relative;}
+        .watermark::before {
+            content: "Melissa Stewart";
+            position:absolute;
+            right:100px;
+            bottom:50px;
+            opacity:0.5;
+            font-size:1.5em;
+            color:rgb(143, 138, 138);
+            repeat:no;
+        }
+        .unselectable{
+            -webkit-user-select: none;
+            -moz-user-select:none;
+            -ms-user-select:none;
+
+        }
+
+        body{
+            display:grid;
+            justify-content:center;
+            flex-direction:row;
+            justify-content:space-around;
+
+            margin:0;
+            padding:100px;
+        }
+        
+        img{
+            display:inline-grid;
+            height:400px;
+            width:300px;
+            border-radius: 20%;
+            flex-shrink:0;
+            border:50px solid rgb(32,31,31);
+        }
+        .container{
+            display:flexbox;
+            flex-direction:row;
+            align:center;
+            border:5px solid rgb(3, 3, 3)
+            border-radius:30px;
+        }
+        .container *{
+            flex-basis:300px;
+        }
+
+        
+    
+       
+        /*position*/
+        
+    </style>
+    </head>
+    <body>
+        <h1>Art Gallery</h1>
+        <div class="container">
+            <div div class="watermark"><img src="./assets/images/moms art/Photo10.jpg" div class="unselectable"></div>
+        <div class="container"></div>
+            <div div class="watermark" class="container"><img src="./assets/images/moms art/Photo11.jpg"></div>
+        <div class="container"></div>
+            <div class="watermark" class="container"><img src="./assets/images/moms art/Photo4.jpg"></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo48.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo53.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo6.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo61.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo69.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo7.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo8.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo85.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo86.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo9.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo96.jpg"/></div>
+        <div class="container"></div>
+            <div class="watermark"><img src="./assets/images/moms art/Photo97.jpg"/></div>
+        </div>
+
+    </body>
+</body>
+</html>
